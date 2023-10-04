@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.background-image{
+  background-position: center center;
+  background-size: cover;
+  transition: all .4s;
+  overflow: hidden;
+
+}
+.background-image:hover{
+   filter: brightness(80%);
+  
+}
+.character_name{
+position:absolute;
+right: 10px;
+bottom: -30px;
+transition: all .4s;
+}
+.background-image:hover .character_name{
+     bottom: 10px;
+     
+}
